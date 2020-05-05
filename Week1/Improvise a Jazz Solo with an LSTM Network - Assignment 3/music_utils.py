@@ -1,7 +1,7 @@
 from __future__ import print_function
 import tensorflow as tf
-import keras.backend as K
-from keras.layers import RepeatVector
+from tensorflow.python.keras import backend as K
+from tensorflow.python.keras.layers import RepeatVector
 import sys
 from music21 import *
 import numpy as np
